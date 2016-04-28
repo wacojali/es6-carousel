@@ -1,0 +1,3 @@
+<ul class="carousel" ng-swipe-left="vm.moveNext()" ng-swipe-right="vm.movePrev()">
+    <li ng-repeat="item in data" ng-style="vm.getListElementStyle($index)" inject class="slide-animation"></li>
+</ul>

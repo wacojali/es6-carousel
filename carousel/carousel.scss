@@ -1,0 +1,21 @@
+ul.carousel {
+    height: 100%;
+    width: 100%;
+    position: relative; 
+    overflow: hidden;
+
+    li {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.slide-animation
+{
+    -webkit-transition: 300ms cubic-bezier(.250, .250, .750, .750) all;
+    -moz-transition: 300ms cubic-bezier(.250, .250, .750, .750) all;
+    -ms-transition: 300ms cubic-bezier(.250, .250, .750, .750) all;
+    -o-transition: 300ms cubic-bezier(.250, .250, .750, .750) all;
+    transition: 300ms cubic-bezier(.250, .250, .750, .750) all;
+}
